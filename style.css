@@ -1,4 +1,111 @@
-h1{
-    font-size: 50px;
-    color: blueviolet;
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --bgcolor: #fff;
+  --color1: rgb(85, 85, 85);
+  --color2: grey;
+  --color3: white;
+  --hamburger-background-color: black;
+  --text-decoration-color: rgb(181, 181, 181);
+  --button-border-color: rgb(53, 53, 53);
+  --button-background-hover-colour: rgb(0, 0, 0);
+  --project-border-color: rgb(163, 163, 163);
+  --project-background: rgb(250, 250, 250);
+  --button-hover-colour: rgb(255, 255, 255);
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  display: flex;
+}
+.logo {
+  font-size: 2rem;
+}
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex;
+}
+a {
+  color: var(--hamburger-background-color);
+  text-decoration: none;
+  text-decoration-color: var(--color3);
+}
+a,
+.btn {
+  transition: all 300ms ease;
+}
+#hamburger-nav {
+  display: none;
+}
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: var(--hamburger-background-color);
+  /* transition: all 0.3 ease-in-out; */
+}
+.menuLinks {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  /* transition: all 0.3 ease-in-out; */
+}
+.menuLinks li {
+  list-style: none;
+}
+.menuLinks a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--hamburger-background-color);
+  text-decoration: none;
+  /* transition: all 0.3 ease-in-out; */
+}
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+.section_pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.section_pic-container img {
+    border-radius: 50%;
+    width: inherit;
 }
