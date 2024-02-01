@@ -174,7 +174,7 @@ section {
   margin: auto 0;
 }
 
-.section__pic-container img{
+.section__pic-container img {
   border-radius: 50%;
 }
 
@@ -270,7 +270,7 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
+  gap: 3rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -340,7 +340,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 3rem;
   justify-content: space-around;
 }
 
@@ -349,10 +349,13 @@ article {
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
+  align-items: center;
 }
 
 article .icon {
   cursor: default;
+  /* height: 4rem; */
+  border-radius: 10px;
 }
 
 /* PROJECTS SECTION */
@@ -367,7 +370,7 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 90%;
   height: 90%;
 }
@@ -431,4 +434,43 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.html {
+  height: 4rem;
+}
+.css {
+  height: 4rem;
+  margin-left: 18px;
+}
+.cssName{
+  margin-right: 8px;
+}
+.js {
+  height: 3.2rem;
+  margin-left: 46px;
+  margin-right: 16px;
+}
+.react {
+  height: 4rem;
+  margin-left: 6px;
+}
+.reactName{
+  margin-right: 5px;
+}
+.skillName {
+  /* margin-top: 20px; */
+}
+.mongodb {
+  height: 3.4rem;
+  margin-right: 10px;
+}
+.nodejs {
+  height: 1rem;
+}
+.express {
+  height: 2rem;
+}
+.git {
+  height: 3.7rem;
 }
