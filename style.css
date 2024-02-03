@@ -40,7 +40,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 a {
@@ -57,7 +57,8 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  /* font-weight: 500; */
 }
 
 .logo:hover {
@@ -176,6 +177,7 @@ section {
 
 .section__pic-container img {
   border-radius: 50%;
+  width: inherit;
 }
 
 .section__text {
@@ -193,7 +195,7 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .title {
@@ -204,7 +206,7 @@ section {
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 1.4rem;
   gap: 1rem;
 }
 
@@ -267,12 +269,21 @@ section {
 
 #about {
   position: relative;
+  margin-top: 36px;
 }
 
 .about-containers {
   gap: 3rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+.education {
+  width: 90%;
+  margin-left: 50px;
+}
+.text-container p {
+  width: 90%;
+  margin-left: 70px;
 }
 
 .about-details-container {
@@ -314,6 +325,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  margin-top: 90px;
 }
 
 /* EXPERIENCE SECTION */
@@ -346,7 +358,7 @@ section {
 
 article {
   display: flex;
-  width: 10rem;
+  width: 12rem;
   justify-content: space-around;
   gap: 0.5rem;
   align-items: center;
@@ -373,6 +385,9 @@ article .icon {
   border-radius: 1rem;
   width: 90%;
   height: 90%;
+}
+.letsCook {
+  height: 135px;
 }
 
 .project-title {
@@ -438,13 +453,17 @@ footer p {
 
 .html {
   height: 4rem;
+  margin-left: 22px;
+}
+.htmlName {
+  margin-right: 27px;
 }
 .css {
   height: 4rem;
-  margin-left: 18px;
+  margin-left: 30px;
 }
-.cssName{
-  margin-right: 8px;
+.cssName {
+  margin-right: 18px;
 }
 .js {
   height: 3.2rem;
@@ -453,24 +472,35 @@ footer p {
 }
 .react {
   height: 4rem;
-  margin-left: 6px;
+  margin-left: 30px;
 }
-.reactName{
-  margin-right: 5px;
+.reactName {
+  margin-right: 40px;
 }
-.skillName {
-  /* margin-top: 20px; */
-}
+
 .mongodb {
-  height: 3.4rem;
+  height: 4rem;
   margin-right: 10px;
 }
 .nodejs {
-  height: 1rem;
+  height: 2.4rem;
 }
 .express {
-  height: 2rem;
+  height: 4.4rem;
 }
 .git {
-  height: 3.7rem;
+  height: 4rem;
+  margin-left: 8px;
+}
+.gitName {
+  margin-right: 44px;
+}
+strong {
+  font-weight: bold;
+}
+.descriptionP {
+  margin-bottom: 1.6rem;
+}
+#rotatingImage {
+  transition: transform 0.1s ease; /* Add a smooth transition for the rotation effect */
 }
