@@ -5,10 +5,11 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-window.addEventListener('scroll', function () {
+window.addEventListener("scroll", function () {
   const scrollY = window.scrollY;
-  const rotationValue = scrollY / 1; // Adjust the division factor for the desired rotation speed
+  const rotationValue = scrollY / 1;
 
-  document.getElementById('rotatingImage').style.transform = `rotate(${rotationValue}deg)`;
+  document.getElementById(
+    "rotatingImage"
+  ).style.transform = `rotate(${rotationValue}deg)`;
 });
-
