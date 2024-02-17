@@ -11,3 +11,4 @@ window.addEventListener('scroll', function () {
 
   document.getElementById('rotatingImage').style.transform = `rotate(${rotationValue}deg)`;
 });
+
