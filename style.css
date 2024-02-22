@@ -479,10 +479,19 @@ footer p {
   height: 4rem;
   margin-left: 30px;
 }
+.tailwind {
+  height: 4rem;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+.bootstrap {
+  height: 2.9rem;
+  margin-left: 45px;
+  margin-right: 10px;
+}
 .reactName {
   margin-right: 40px;
 }
-
 .mongodb {
   height: 4rem;
   margin-right: 10px;
