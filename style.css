@@ -281,6 +281,11 @@ section {
   width: 90%;
   margin-left: 50px;
 }
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .text-container p {
   width: 90%;
   margin-left: 50px;
